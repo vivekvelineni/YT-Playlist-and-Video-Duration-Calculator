@@ -45,6 +45,7 @@ function Find() {
           document.getElementById("errorid").setAttribute("style", "display : block;");
           document.getElementById("op").setAttribute("style", "display : none;");
           document.getElementById("vop").setAttribute("style", "display : none;");
+          document.getElementById("lop").setAttribute("style", "display : none;");
         }
         
         function NoneOP() {
