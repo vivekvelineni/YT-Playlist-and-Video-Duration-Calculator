@@ -1,0 +1,152 @@
+.logoimg {
+  padding-top: 35px;
+  width: 8%;
+  height: 8%;
+  float: left;
+}
+
+.gitimg {
+  padding-top: 40px;
+  float: right;
+  width: 5%;
+  height: 5%;
+}
+
+.padleft {
+  padding-left: 30px;
+}
+
+.padright {
+  padding-right: 30px;
+}
+
+.navbar {
+  padding-top: 0px;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  font-size: 50px;
+}
+
+.horizontal{
+  width : 90%; 
+  size : "2" ;
+  color : "darkslategray";
+}
+
+.nodec {
+  text-decoration: none;
+}
+
+.maintext {
+  font-family: "Trebuchet MS";
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-size: 55px;
+}
+
+.font {
+  font-family: "Trebuchet MS";
+}
+
+.lh {
+  line-height: 3.5em;
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-radius: 15px;
+}
+
+.lhb {
+  height: 50px;
+  font-size: 30px;
+  margin: auto;
+  display: block;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.footrcolour {
+  color: #007bff;
+}
+.gif {
+  margin: auto;
+}
+.divgif {
+  width: 700px;
+  height: 450px;
+}
+.gifpad {
+  padding-top: 175px;
+}
+.op {
+  width: 920px;
+  height: 1050px;
+  box-sizing: border-box;
+  border: 20px solid;
+  border-color: #d4edda;
+  margin: auto;
+  background-color: #d4edda;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 40px;
+  overflow: auto;
+}
+.rightpad {
+  padding-left: 32.5px;
+}
+.titlepad {
+  padding-top: 10px;
+}
+.lastpad{
+  padding-bottom: 10px;
+}
+.error {
+  font-family: "Trebuchet MS";
+  width: 920px;
+  height: 1120px;
+  box-sizing: border-box;
+  border: 5px solid #ff0000;
+  margin: auto;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 40px;
+}
+.lop{
+  font-family: "Trebuchet MS";
+  width: 920px;
+  height: 450px;
+  margin: auto;
+  font-size: 80px;
+}
+.vop {
+  width: 920px;
+  height: 735px;
+  box-sizing: border-box;
+  border: 20px solid;
+  border-color: #d4edda;
+  margin: auto;
+  background-color: #d4edda;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 20px;
+  overflow:auto; 
+}
+.scroll{
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Trebuchet MS";
+}
+.color {
+  color: #155724;
+}
+
