@@ -1,0 +1,139 @@
+.logoimg {
+  padding-top: 7.5px;
+  width: 4%;
+  height: 4%;
+  float: left;
+}
+
+.gitimg {
+  padding-top: 15px;
+  float: right;
+  width: 2%;
+  height: 2%;
+}
+
+.padleft {
+  padding-left: 155px;
+}
+
+.padright {
+  padding-right: 155px;
+}
+
+.navbar {
+  padding-top: 0px;
+  text-align: center;
+  font-family: "Trebuchet MS";
+}
+
+.horizontal{
+  width : 85%; 
+  size : "2" ;
+  color : "darkslategray";
+}
+
+.nodec {
+  text-decoration: none;
+}
+
+.maintext {
+  font-family: "Trebuchet MS";
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-size: 27.5px;
+}
+
+.font {
+  font-family: "Trebuchet MS";
+}
+.lh {
+  line-height: 2.5em;
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+.lhb {
+  height: 32.5px;
+  font-size: 17.5px;
+  margin: auto;
+  display: block;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+.footrcolour {
+  color: #007bff;
+}
+.gif {
+  margin: auto;
+}
+.divgif {
+  width: 780px;
+  height: 325px;
+}
+.gifpad {
+  padding-top: 100px;
+}
+.op {
+  width: 780px;
+  height: 425px;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-color: #d4edda;
+  margin: auto;
+  background-color: #d4edda;
+  border-radius: 10px;
+  text-align: left;
+}
+.rightpad {
+  padding-left: 30px;
+}
+.titlepad {
+  padding-top: 15px;
+}
+.lastpad{
+  padding-bottom: 10px;
+}
+.error {
+  font-family: "Trebuchet MS";
+  width: 780px;
+  height: 305px;
+  box-sizing: border-box;
+  border: 3px solid #ff0000;
+  margin: auto;
+  border-radius: 10px;
+  text-align: left;
+}
+.lop{
+  font-family: "Trebuchet MS";
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  font-size: 60px;
+}
+.vop {
+  width: 780px;
+  height: 360px;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-color: #d4edda;
+  margin: auto;
+  background-color: #d4edda;
+  border-radius: 10px;
+  text-align: left;
+}
+.color {
+  color: #155724;
+}
+.scroll{
+  margin: auto;
+  display: none;
+}
