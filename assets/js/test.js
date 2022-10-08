@@ -6,28 +6,28 @@ function Find() {
   
         if ((input.length == 11) && (/[/=&?.:%]+/.exec(input) == null)){
           //console.log('it is a video id');
-          return VideoAPI(input)
+          return VideoOP()
         } else {
               v = v + 1
           }
   
         if ((input.includes('youtu') == true) && (input.includes('list') != true) && (input.length >= 20)){
           //console.log('it is a video link');
-          return VideoAPI(input)
+          return VideoOP()
         } else {
               v = v + 1
           }
   
         if (((input.length == 34) || (input.length == 13)) && (/[/=&?.:%]+/.exec(input) == null)){
           //console.log('it is a playlist id');
-          return PlaylistAPI(input)
+          return VideoOP()
         } else {
               v = v + 1
           }
   
         if ((input.includes('list') == true) && (input.includes('youtu') == true)){
           //console.log('it is a playlist link');
-          return PlaylistAPI(input)
+          return VideoOP()
         } else {
               v = v + 1
           }
@@ -48,5 +48,9 @@ function Find() {
           document.getElementById("lop").setAttribute("style", "display : none;");
         }
         
-        
+    function VideoOP() { 
+          document.getElementById("op").setAttribute("style", "display : none;");
+          document.getElementById("vop").setAttribute("style", "display : block;");
+          document.getElementById("lop").setAttribute("style", "display : none;");
+    }
 }
