@@ -399,6 +399,7 @@ function Find () {
         Pvdurs[1] = Pvdurs[1] + Number(Hour[0])
         Pvdurs[2] = Pvdurs[2] + Number(Min[0])
         Pvdurs[3] = Pvdurs[3] + Number(Sec[0])
+        console.log(Pvdurs)
       }
       const Pdetdurs = []
       Pdetdurs.push(Pvdurs[0], Pvdurs[1], Pvdurs[2], Pvdurs[3])
